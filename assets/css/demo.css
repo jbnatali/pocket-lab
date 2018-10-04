@@ -1,3 +1,18 @@
+/*personal addition*/
+
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Thanks to https://css-tricks.com/hash-tag-links-padding/ */
+
+/*end of personal addition */
+
 .tim-row{
     margin-bottom: 20px;
 }
